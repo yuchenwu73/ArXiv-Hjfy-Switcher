@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "arXiv ↔ 幻觉翻译 切换器",
+    "version": "1.1",
+    "description": "点击图标在 arXiv 摘要页/PDF页 和 幻觉翻译(hjfy.top) 页之间快速切换。",
+    "icons": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_icon": {
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "default_title": "arXiv/HJFY 切换"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["tabs"]
+  }
